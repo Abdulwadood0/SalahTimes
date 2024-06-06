@@ -1,0 +1,56 @@
+body {
+    font-family: "Cairo", sans-serif !important;
+    direction: rtl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("./dfda57ad6d6a63ca535f79ce5780a29e.jpg");
+    background-size: cover;
+
+}
+
+#container {
+    background-color: rgba(190, 218, 219, 0.888);
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+
+}
+
+#pray-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.pray {
+    background-color: rgb(248, 242, 233);
+    width: 50%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+#city-select {
+    border-radius: 9px;
+    background-color: #eee;
+    margin-right: 5px;
+    width: 70px;
+    font-family: Cairo;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+#pray-box h1 {
+
+    display: inline;
+}
+
+#pray-box p {
+
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+}
